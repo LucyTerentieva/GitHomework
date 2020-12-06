@@ -1,0 +1,103 @@
+body {
+  font-family: "Handlee", cursive;
+  background: rgb(231, 247, 246);
+  background: linear-gradient(
+    129deg,
+    rgba(231, 247, 246, 1) 0%,
+    rgba(181, 218, 211, 0.981127485173757) 39%,
+    rgba(176, 164, 92, 1) 100%
+  );
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.header {
+  background-image: url(../images/photo_11.jpg);
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 600px;
+  /* background-size: cover; */
+}
+
+.paragraf {
+  /* font-style: italic; */
+  height: 235px;
+  width: 600px;
+  background: whitesmoke;
+  padding: 2%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid rgba(163, 150, 125, 0.555);
+}
+#par2 {
+  height: 215px;
+  border: 2px dashed rgba(163, 150, 125, 0.555);
+}
+#par4 {
+  height: 130px;
+  border: 2px dashed rgba(163, 150, 125, 0.555);
+}
+
+.list {
+  width: 595px;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px dashed rgba(163, 150, 125, 0.555);
+}
+
+progress {
+  width: 65%;
+  height: 20px;
+  color: rgba(193, 230, 230, 0.699);
+  background: rgba(185, 185, 140, 0.24);
+}
+progress::-webkit-progress-bar {
+  background: rgba(185, 185, 140, 0.24);
+}
+progress::-webkit-progress-value {
+  background: rgba(193, 230, 230, 0.699);
+}
+progress::-moz-progress-bar {
+  color: rgba(193, 230, 230, 0.699);
+  background: rgba(185, 185, 140, 0.24);
+}
+
+.btn {
+  display: inline-block;
+  font-family: serif;
+  background-image: url(../images/photo_05.jpg);
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  text-shadow: 1px 2px 2px black, 0 0 1em brown;
+}
+.btn:active {
+  color: rgb(190, 176, 146);
+  text-shadow: 1px 2px 2px black, 0 0 1em wheat;
+}
+
+table {
+  width: 630px;
+  border-radius: 10px;
+}
+table,
+th,
+td {
+  border: 2px solid rgba(163, 150, 125, 0.555);
+  /* border-collapse: collapse; */
+  background-color: rgba(221, 255, 245, 0.212);
+  border-radius: 7px;
+  padding-bottom: 5px;
+}
+#tclmn {
+  background-color: rgba(108, 119, 116, 0.144);
+}
