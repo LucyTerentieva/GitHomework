@@ -1,3 +1,3 @@
 # GitHomework
 
-GitHub main page: https://lucyterentieva.github.io/GitHomework/index.html
+GitHub main page: https://lucyterentieva.github.io/GitHomework
